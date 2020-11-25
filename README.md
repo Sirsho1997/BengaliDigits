@@ -57,7 +57,7 @@ A very common architecture for a CNN is a stack of Conv2D and MaxPooling2D layer
      test_loss, test_accuracy = model.evaluate(test_x,  test_y, verbose=2)
 print("Accuracy : ",test_accuracy*100,"%")
 ```
-  <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/accuracy.png" width="50%" height="60%" />
+  <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/accuracy.png" width="50%" height="30%" />
 
 
   ## Plotting several images along with their predictions
