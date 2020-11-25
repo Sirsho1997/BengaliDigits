@@ -66,4 +66,4 @@ print("Accuracy : ",test_accuracy*100,"%")
 
 
 Contributor - 
-- [Sirshendu Ganguly](https://www.linkedin.com/in/sirshendu-ganguly/)  [![Github](https://github.com/Sirsho1997/BengaliDigits/blob/master/image/github.png](https://github.com/Sirsho1997)
+- [Sirshendu Ganguly](https://www.linkedin.com/in/sirshendu-ganguly/)
