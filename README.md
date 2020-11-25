@@ -2,7 +2,7 @@
 
 ### Handwritten digit recognition for the fifth largest spoken language in the world.
 
-**CHECK THIS -->** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg(https://colab.research.google.com/github/Sirsho1997/BengaliDigits/blob/master/BengaliDigit.ipynb)
+**CHECK THIS -->** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/BookGenrePrediction.ipynb)
 
 The data set that has been used is CMATERdb data set. [https://code.google.com/archive/p/cmaterdb/] It is a balanced data set of total 6000 Bangla numerals.
 
