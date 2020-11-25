@@ -10,16 +10,16 @@ CMATERdb is the pattern recognition database repository created at the 'Center f
 
 It is a balanced dataset of total 6000 Bangla numerals (32x32 RGB coloured, 6000 images), each having 600 images per class (per digit).
 
-  ##### One data set example
+  ### One data set example
   
   
  <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/trainingExample.png" width="50%" height="60%" />
 
-  ##### Building the model
+  ### Building the model
   
   Building the neural network requires configuring the layers of the model, then compiling the model. The basic building block of a neural network is the layer. Layers extract representations from the data fed into them. Hopefully, these representations are meaningful for the problem at hand.
 
-  ###### CNN Architecture
+  ### CNN Architecture
 
 A very common architecture for a CNN is a stack of Conv2D and MaxPooling2D layers followed by a few denesly connected layers. The idea is that the stack of convolutional and maxPooling layers extract the features from the image. Then these features are flattened and fed to densly connected layers that determine the class of an image based on the presence of features.
 
@@ -35,7 +35,7 @@ A very common architecture for a CNN is a stack of Conv2D and MaxPooling2D layer
         model.add(layers.Dense(64, activation='relu'))
         model.add(layers.Dense(10))
 ```
-  ##### Compiling the model
+  ### Compiling the model
   
   Before the model is ready for training, it needs a few more settings.
 
@@ -52,7 +52,7 @@ A very common architecture for a CNN is a stack of Conv2D and MaxPooling2D layer
             metrics=['accuracy'])
 ```
 
-  ##### Evaluate Accuracy
+  ### Evaluate Accuracy
   Next, comparing how the model performs on the test dataset
   
   ```python
@@ -62,6 +62,6 @@ print("Accuracy : ",test_accuracy*100,"%")
   <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/accuracy.png" width="50%" height="60%" />
 
 
-  ##### Plotting several images along with their predictions
+  ### Plotting several images along with their predictions
   
   <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/prediction.png" width="50%" height="60%" />
