@@ -63,3 +63,7 @@ print("Accuracy : ",test_accuracy*100,"%")
   ## Plotting several images along with their predictions
   
   <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/prediction.png" width="100%" height="100%" />
+
+
+Contributor - 
+- [Sirshendu Ganguly](https://www.linkedin.com/in/sirshendu-ganguly/)  [![Github](https://github.com/Sirsho1997/BengaliDigits/blob/master/image/github.png](https://github.com/Sirsho1997)
