@@ -62,4 +62,4 @@ print("Accuracy : ",test_accuracy*100,"%")
 
   ## Plotting several images along with their predictions
   
-  <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/prediction.png" width="175%" height="175%" />
+  <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/prediction.png" width="150%" height="150%" />
