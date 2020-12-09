@@ -17,7 +17,7 @@ It is a balanced dataset of total 6000 Bangla numerals (32x32 RGB coloured, 6000
        
    - [Matplotlib](https://matplotlib.org/)
        
-### For viewing the whole code - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sirsho1997/BengaliDigits/blob/master/BengaliDigit.ipynb)
+## For viewing the whole code - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sirsho1997/BengaliDigits/blob/master/BengaliDigit.ipynb)
 
 
 
