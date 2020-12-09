@@ -1,4 +1,5 @@
 # Handwritten digit recognition for the fifth largest spoken language in the world
+IPython Notebook has been used for this project.
 
 **CHECK THIS -->** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/BookGenrePrediction.ipynb)
 
@@ -7,6 +8,14 @@ The data set that has been used is CMATERdb data set. [https://code.google.com/a
 CMATERdb is the pattern recognition database repository created at the 'Center for Microprocessor Applications for Training Education and Research' (CMATER) research laboratory, Jadavpur University, Kolkata 700032, INDIA. This database is free for all non-commercial uses.
 
 It is a balanced dataset of total 6000 Bangla numerals (32x32 RGB coloured, 6000 images), each having 600 images per class (per digit).
+
+- An accuracy of 98% was obtained using CNN.
+
+ - Required Libraries
+       - [TenserFlow](https://www.tensorflow.org/)      
+       - [NumPy](https://numpy.org/")
+       - [Matplotlib](https://matplotlib.org/)
+       
 
   ## One data set example
   
