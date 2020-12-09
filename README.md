@@ -35,16 +35,16 @@ It is a balanced dataset of total 6000 Bangla numerals (32x32 RGB coloured, 6000
 A very common architecture for a CNN is a stack of Conv2D and MaxPooling2D layers followed by a few denesly connected layers. The idea is that the stack of convolutional and maxPooling layers extract the features from the image. Then these features are flattened and fed to densly connected layers that determine the class of an image based on the presence of features.
 
 ```python
-     #Set up the layers
-        model = models.Sequential()
-        model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)))
-        model.add(layers.MaxPooling2D((2, 2)))
-        model.add(layers.Conv2D(64, (3, 3), activation='relu'))
-        model.add(layers.MaxPooling2D((2, 2)))
-        model.add(layers.Conv2D(64, (3, 3), activation='relu'))
-        model.add(layers.Flatten())
-        model.add(layers.Dense(64, activation='relu'))
-        model.add(layers.Dense(10))
+#Set up the layers
+model = models.Sequential()
+model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)))
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+model.add(layers.Flatten())
+model.add(layers.Dense(64, activation='relu'))
+model.add(layers.Dense(10))
 ```
   ### Compiling the model
   
@@ -57,17 +57,15 @@ A very common architecture for a CNN is a stack of Conv2D and MaxPooling2D layer
   Metrics —Used to monitor the training and testing steps. The following example uses accuracy, the fraction of the images that are correctly classified.
   
   ```python
-     #Compile the model
-      model.compile(optimizer='adam',
-            loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-            metrics=['accuracy'])
+#Compile the model
+model.compile(optimizer='adam',loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),metrics=['accuracy'])
 ```
 
   ### Evaluate Accuracy
   Next, comparing how the model performs on the test dataset
   
   ```python
-     test_loss, test_accuracy = model.evaluate(test_x,  test_y, verbose=2)
+test_loss, test_accuracy = model.evaluate(test_x,  test_y, verbose=2)
 print("Accuracy : ",test_accuracy*100,"%")
 ```
   <img src="https://github.com/Sirsho1997/BengaliDigits/blob/master/image/accuracy.png" width="50%" height="30%" />
